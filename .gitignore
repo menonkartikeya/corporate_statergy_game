@@ -1,0 +1,39 @@
+# .NET build output
+bin/
+obj/
+artifacts/
+publish/
+*.nupkg
+*.snupkg
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+
+# Tests and coverage
+TestResults/
+coverage/
+*.coverage
+*.trx
+
+# Logs
+logs/
+*.log
+
+# Node (if any web tooling is added)
+node_modules/
+
+# Local environment and secrets
+.env
+.env.*
+appsettings.*.local.json
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
